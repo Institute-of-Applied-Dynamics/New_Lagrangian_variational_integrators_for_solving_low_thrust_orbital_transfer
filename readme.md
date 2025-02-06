@@ -11,7 +11,7 @@ It consists of two parts:
 
 1. $h=0.1$, $\alpha=\beta=\gamma=1$ both control dependent and independent approaches
 2. $h=0.1$, $\alpha=\beta=\gamma=0.5$ both control dependent and independent approaches
-3. direct approach solution with $h=0.1$
+3. Standard approach solution with $h=0.1$
 4. $h=0.01$, $\alpha=\beta=\gamma=0.5$  control independent approach
 5. $h=0.1,0.4,0.8$ $\alpha=\beta=\gamma=1$  control independent approach
 6. $h=0.1,0.4,0.8$ $\alpha=1,\beta=\gamma=0$  control independent approach
