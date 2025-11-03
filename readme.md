@@ -11,6 +11,8 @@ It consists of two parts:
 
 2. The program that creates the data for the performance study
 3. The script that generates the figures of the paper once all data sets are generated
+4. The program to generate the Reference indirect solution
+5. The script for generation of the n satellite alignment flight
 
 
 How to use the files.
@@ -24,10 +26,12 @@ How to use the files.
 
 2.  Run 'performane_data_generation.ipynb'
 -- generates the performance data for the function evaluation
+3. The reference indirect solution can be generated using 'Reference.ipynb' (optional)
+-- reference solution is already supplied as 'reference_polar.pkl'
 
-3. Run 'indirect_solution.ipynb' (optional)
--- generates the reference indirect solution. reference solution is already supplied as 'reference_polar.pkl'
+4. Run 'direct_SODE_n_satellites.ipynb' 
+-- generates the satellite allignment data
 
-3. Run 'plotting_data_low_thrust_study.ipynb'
+5. Run 'plotting_data_low_thrust_study.ipynb'
 -- generates the figures
 
